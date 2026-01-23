@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+}
+
+/* Navbar */
+header {
+    background: #1e1e2f;
+    padding: 15px 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}
+.logo img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border:1px solid white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    color: #00bcd4;
+}
+
+/* Contact */
+.contact-section {
+    padding: 60px;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    background: #00bcd4;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #0097a7;
+}
+
+footer {
+    background: #1e1e2f;
+    text-align: center;
+    padding: 20px;
+    color: #ccc;
+}
+
