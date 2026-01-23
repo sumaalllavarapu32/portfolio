@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>suma | Skills</title>
-    <link rel="stylesheet" href="skills.css">
+    <title>Skills | Portfolio</title>
+    <link rel="stylesheet" href="about.css"> <!-- reuse about page styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body>
 
-    <!-- Header / Navigation -->
+<body>
+    <!-- Navigation Bar -->
     <header>
         <nav>
             <div class="photo">My Portfolio</div>
@@ -22,71 +22,40 @@
         </nav>
     </header>
 
-    <!-- Skills Section -->
+    <!-- Skills Section (Styled like About) -->
     <main>
-        <section class="about-section">
-            <div class="about-content">
-                <h1>My Skills</h1>
+        <section class="about-me">
+            <div class="content">
+                <h1>My <span>Skills</span></h1>
+                <h2>Technical & Professional Abilities</h2>
                 <p>
                     Here are the technical and professional skills I have developed
-                    during my academic journey and personal projects.
+                    through my academic journey and hands-on projects.
                 </p>
+
+                <!-- Skills List -->
+                <div class="skills-list">
+                    <p><i class="fab fa-html5"></i> <strong>HTML5</strong> – Semantic and structured web pages</p>
+                    <p><i class="fab fa-js"></i> <strong>JavaScript</strong> – DOM manipulation and interactivity</p>
+                    <p><i class="fas fa-database"></i> <strong>SQL</strong> – Writing queries and database handling</p>
+                    <p><i class="fab fa-python"></i> <strong>Python</strong> – Logic building and automation</p>
+                    <p><i class="fas fa-users"></i> <strong>Soft Skills</strong> – Communication & teamwork</p>
+                </div>
             </div>
 
-            <div class="highlights">
-                
-                <!-- Skill Card 1 -->
-                <div class="highlight-card">
-                    <i class="fab fa-html5"></i>
-                    <h3>HTML5</h3>
-                    <p>Semantic markup and well-structured web pages</p>
-                </div>
-                
-
-                <!-- Skill Card 3 -->
-                <div class="highlight-card">
-                    <i class="fab fa-js"></i>
-                    <h3>JavaScript</h3>
-                    <p>Basic scripting, DOM manipulation, and interactivity</p>
-                </div>
-
-                <!-- Skill Card 4 -->
-                <div class="highlight-card">
-                    <i class="fas fa-database"></i>
-                    <h3>SQL</h3>
-                    <p>Writing queries and managing relational databases</p>
-                </div>
-
-                <!-- Skill Card 5 -->
-                <div class="highlight-card">
-                    <i class="fab fa-python"></i>
-                    <h3>Python</h3>
-                    <p>Basic programming, logic building, and automation</p>
-                </div>
-
-                <!-- Skill Card 6 -->
-                <div class="highlight-card">
-                    <i class="fas fa-users"></i>
-                    <h3>Soft Skills</h3>
-                    <p>Communication, teamwork, and problem-solving</p>
-                </div>
-
+            <!-- Right side image (optional – same as About) -->
+            <div class="image">
+                <img src="ammu1.jpg" alt="Skills Image">
             </div>
         </section>
     </main>
 
     <!-- Footer -->
     <footer>
-        <div class="footer-content">
-            <div class="social-links">
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="mailto:example@gmail.com"><i class="fas fa-envelope"></i></a>
-            </div>
+        <div>
             <p>&copy; 2025 Suma. All rights reserved.</p>
         </div>
     </footer>
 
 </body>
 </html>
-
